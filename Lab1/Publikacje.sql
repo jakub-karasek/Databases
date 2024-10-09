@@ -6,8 +6,6 @@ CREATE TABLE PUBLIKACJE (
     PUNKTY INT
 );
 
-SET DEFINE OFF;
-
 
 INSERT INTO PUBLIKACJE (ID, TYTUL, ROK, AUTORZY, PUNKTY) VALUES (1, 'Function definitions for compound values in object-oriented languages', 2017, 2, 70);
 INSERT INTO PUBLIKACJE (ID, TYTUL, ROK, AUTORZY, PUNKTY) VALUES (2, 'Regular Separability of Parikh Automata', 2017, 4, 140);
@@ -191,7 +189,7 @@ INSERT INTO PUBLIKACJE (ID, TYTUL, ROK, AUTORZY, PUNKTY) VALUES (179, 'A fast de
 INSERT INTO PUBLIKACJE (ID, TYTUL, ROK, AUTORZY, PUNKTY) VALUES (180, 'Structure and function of the Ts2631 endolysin of Thermus scotoductus phage vB_Tsc2631 with unique N-terminal extension used for peptidoglycan binding', 2019, 7, 140);
 INSERT INTO PUBLIKACJE (ID, TYTUL, ROK, AUTORZY, PUNKTY) VALUES (181, 'Enumerating Connected Subgraphs and Computing the Myerson and Shapley Values in Graph-restricted Games', 2019, 4, 140);
 INSERT INTO PUBLIKACJE (ID, TYTUL, ROK, AUTORZY, PUNKTY) VALUES (182, 'Attachment Centrality: Measure for Connectivity in Networks', 2019, 4, 200);
-INSERT INTO PUBLIKACJE (ID, TYTUL, ROK, AUTORZY, PUNKTY) VALUES (183, 'Strategic Attack & Defense in Security Diffusion Games', 2019, 3, 140);
+INSERT INTO PUBLIKACJE (ID, TYTUL, ROK, AUTORZY, PUNKTY) VALUES (183, 'Strategic Attack ' || CHR(38) || ' Defense in Security Diffusion Games', 2019, 3, 140);
 INSERT INTO PUBLIKACJE (ID, TYTUL, ROK, AUTORZY, PUNKTY) VALUES (184, 'Attacking Similarity-Based Link Prediction in Social Networks', 2019, 5, 200);
 INSERT INTO PUBLIKACJE (ID, TYTUL, ROK, AUTORZY, PUNKTY) VALUES (185, 'A Measure of Added Value in Groups', 2019, 5, 100);
 INSERT INTO PUBLIKACJE (ID, TYTUL, ROK, AUTORZY, PUNKTY) VALUES (186, 'How to Hide one’s Relationships from Link prediction Algorithms', 2019, 6, 140);
