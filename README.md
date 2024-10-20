@@ -7,4 +7,4 @@ This repository contains my projects for the Databases course in my Bachelor's d
 ## Contents
 
 - **Lab_01**: First Databases course assignment  [Task description](./Lab_01/README.md)
-- **Project 2**: Second Databases course assignment  [Task description](./Lab_02/README.md)
+- **Lab_02**: Second Databases course assignment  [Task description](./Lab_02/README.md)
